@@ -3,7 +3,7 @@ services:
     name: year-progress-bot
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python web_bot.py"
+    startCommand: "python command_bot.py"
     envVars:
       - key: PYTHON_VERSION
         value: 3.9.15
